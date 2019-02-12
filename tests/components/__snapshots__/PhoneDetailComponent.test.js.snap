@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`PhoneListContainer renders the component 1`] = `
+exports[`PhoneDetailComponent renders the component 1`] = `
 <div
   className="phone-list-container"
 >
