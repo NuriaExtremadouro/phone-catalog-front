@@ -14,4 +14,4 @@ If you want to run the tests, execute the command:
 
 ***npm test***
 
-Note: This project has been generated using the version 11.7 of Node.js and 6.6.0 of NPM. If there are any errors related to Node, you might need to update your version to the latest one.
+**Note:** This project has been generated using the version 11.7 of Node.js and 6.6.0 of NPM. If there are any errors related to Node, you might need to update your version to the latest one.
