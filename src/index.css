@@ -1,14 +1,95 @@
+/* Common */
+
 body {
   margin: 0;
   padding: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: #f6f6f6 !important;
+  font-family: sans-serif !important;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+/* Header */
+
+.top-header {
+  background: #ffffff;
+  height: 125px;
+  font-size: 30px;
+  font-weight: 700;
+}
+
+.top-header a, .top-header a:hover {
+  color: #000000;
+}
+
+.top-header .underline {
+  border-bottom: 4px solid #17ae8e !important;
+  padding: 5px;
+  width: 100px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Phone list */
+
+.phone-list-container {
+  margin: 50px 12%;
+}
+
+.phone-card {
+  border: #ffffff 5px solid !important;
+  border-radius: 0px !important;
+  transition: all 375ms linear;
+  box-shadow: -2px 7px 12px 0 rgba(0,0,0,.12) !important;
+  position: relative;
+}
+
+.card-image {
+  opacity: 1;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  color: #000000;
+}
+
+.card-details i {
+  color: #17ae8e !important;
+}
+
+.phone-card:hover {
+  border: #17ae8e 5px solid !important;
+}
+
+.phone-card:hover .card-image {
+  opacity: 0.3;
+}
+
+.phone-card:hover .card-text {
+  opacity: 1;
+}
+
+/* Phone detail */
+
+.details-data {
+  border: #ffffff 5px solid !important;
+  border-radius: 0px !important;
+  box-shadow: -2px 7px 12px 0 rgba(0,0,0,.12) !important;
+}
+
+.details-data label {
+  font-weight: 600;
+  color: #000000;
+}
+
+.details-image {
+  display: block;
+  margin-left: 20%;
+  margin-right: auto;
 }

@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PhoneListContainer renders the component 1`] = `
+<div
+  className="phone-list-container"
+>
+  <Grid>
+    <Segment
+      className="details-data"
+    >
+      <Grid
+        columns="equal"
+      >
+        <GridColumn
+          computer={8}
+          mobile={16}
+        >
+          <Image
+            as="img"
+            className="details-image"
+            src="https://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-5-plus-1.jpg"
+            ui={true}
+          />
+        </GridColumn>
+        <GridColumn
+          computer={8}
+          mobile={16}
+        >
+          <Header
+            as="h1"
+            dividing={true}
+          >
+            Xiaomi Redmi 5 Plus
+          </Header>
+          <Grid
+            columns="equal"
+          >
+            <GridColumn
+              computer={8}
+              mobile={16}
+            >
+              <label>
+                Screen: 
+              </label>
+              <p>
+                6'
+              </p>
+              <label>
+                RAM: 
+              </label>
+              <p>
+                4 GB
+              </p>
+              <label>
+                Internal Memory: 
+              </label>
+              <p>
+                64 GB
+              </p>
+              <label>
+                Camera: 
+              </label>
+              <p>
+                12 MP
+              </p>
+            </GridColumn>
+            <GridColumn
+              computer={8}
+              mobile={16}
+            >
+              <label>
+                Micro SD: 
+              </label>
+              <p>
+                Yes
+              </p>
+              <label>
+                Battery: 
+              </label>
+              <p>
+                4000 mAh
+              </p>
+              <label>
+                Color: 
+              </label>
+              <p>
+                blue
+              </p>
+              <label>
+                Price: 
+              </label>
+              <p>
+                181
+                 €
+              </p>
+            </GridColumn>
+          </Grid>
+          <Divider
+            horizontal={true}
+          >
+            Description
+          </Divider>
+          <p>
+            No hay año en que Xiaomi domine con contundencia la lista de mejores teléfonos de menos de 200 euros si lo que buscamos es lo máximo por nuestro dinero. El Xiaomi Redmi 5 Plus es una garantía de éxito que nos da potencia, batería y mucha memoria interna contando además con una gran pantalla.
+          </p>
+        </GridColumn>
+      </Grid>
+    </Segment>
+  </Grid>
+</div>
+`;
